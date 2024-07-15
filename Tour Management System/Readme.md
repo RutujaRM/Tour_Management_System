@@ -11,9 +11,17 @@
  send back appropriate responses.
                                 Contain methods (functions) that handle specific HTTP requests (e.g., GET, POST, PUT, DELETE) for different endpoints.Perform business logic, data validation, and orchestrate interactions between models (data layer) and services (business logic layer).
 
-## models
-## routes
-## utils
+  #### models :-
+ It represent the data structure and interact directly with the database or data storage layer.
+Define schemas or models that define the structure and constraints of data entities (e.g., User, Product) used in the application.
+Provide methods (like CRUD operations) to interact with the database, including querying, inserting, updating, and deleting data.
+  
+  #### routes :- 
+  Routes define the endpoints (URL paths) that clients can request and how the server should respond to those requests.
+  Map HTTP methods (GET, POST, PUT, DELETE) to specific controller methods that handle these requests.
+  Provide a clear structure for API endpoints and their corresponding actions.
+  
+ #### utils
 
 
 
