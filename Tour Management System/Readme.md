@@ -42,7 +42,7 @@ Encapsulate logic that is not directly related to business logic or data manipul
      Comparing passwords involves hashing the user-provided password with the same method and salt as the stored hash, then comparing the resulting hashes. This approach securely verifies passwords without storing or transmitting plaintext, enhancing security against unauthorized access.
   
      ##### Getting Rounds:    getRounds
-   In the context of password hashing, "getting rounds" typically refers to the number of iterations or rounds of hashing applied to a password during the hashing process, especially with algorithms like bcrypt or Argon2. Increasing the number of rounds enhances security by making it more time-consuming and resource-intensive for attackers to brute-force passwords.
+            In the context of password hashing, "getting rounds" typically refers to the number of iterations or rounds of hashing applied to a password during the hashing process, especially with algorithms like bcrypt or Argon2. Increasing the number of rounds enhances security by making it more time-consuming and resource-intensive for attackers to brute-force passwords.
 
 
   2) **cookie-parser** :- cookie-parser is a convenient middleware for handling cookies in Express applications. It simplifies the process of parsing cookies from incoming requests and setting cookies in responses. By using cookie-parser, you can easily manage cookies, enhancing the functionality and security of your web applications.
