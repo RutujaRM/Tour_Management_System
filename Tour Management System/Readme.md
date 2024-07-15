@@ -21,7 +21,10 @@ Provide methods (like CRUD operations) to interact with the database, including 
   Map HTTP methods (GET, POST, PUT, DELETE) to specific controller methods that handle these requests.
   Provide a clear structure for API endpoints and their corresponding actions.
   
- #### utils
+ #### utils :- 
+ Utilities or helper functions that provide reusable functionalities across different parts of the application.
+Contains functions that perform common tasks such as data validation, formatting, authentication, logging, etc.
+Encapsulate logic that is not directly related to business logic or data manipulation but supports other parts of the application.
 
 
 
@@ -29,10 +32,14 @@ Provide methods (like CRUD operations) to interact with the database, including 
 
   1) bcryptjs :- JavaScript library used for hashing passwords and comparing hashed passwords.To enhance security, particularly in user authentication systems.bcryptjs is a crucial library for securing passwords.It ensure that passwords are stored securely and can be verified efficiently, enhancing the security of your application’s authentication system.  
 
-   #### Generating Salts: genSaltSync, genSalt
-   #### Hashing Passwords: hashSync, hash
-   #### Comparing Passwords: compareSync, compare
-   #### Getting Rounds: getRounds
+   ##### Generating Salts:
+                          genSaltSync, genSalt
+   ##### Hashing Passwords: 
+                        hashSync, hash
+   ##### Comparing Passwords:
+   compareSync, compare
+   ##### Getting Rounds: 
+   getRounds
 
 
   2) cookie-parser :- cookie-parser is a convenient middleware for handling cookies in Express applications. It simplifies the process of parsing cookies from incoming requests and setting cookies in responses. By using cookie-parser, you can easily manage cookies, enhancing the functionality and security of your web applications.
