@@ -5,7 +5,12 @@
 2) npm init :- create package.json file
 3) npm install :- To install all dependencies
 
-## controllers :- 
+## controllers :- To handle the application logic. They receive incoming requests from clients, process them by interacting with models and services, and send back appropriate responses.
+ 
+  ##### Responsibilities:
+Contain methods (functions) that handle specific HTTP requests (e.g., GET, POST, PUT, DELETE) for different endpoints.
+Perform business logic, data validation, and orchestrate interactions between models (data layer) and services (business logic layer).
+
 ## models
 ## routes
 ## utils
