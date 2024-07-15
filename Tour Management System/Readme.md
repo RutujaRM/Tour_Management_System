@@ -47,10 +47,10 @@ Encapsulate logic that is not directly related to business logic or data manipul
 
   2) **cookie-parser** :- cookie-parser is a convenient middleware for handling cookies in Express applications. It simplifies the process of parsing cookies from incoming requests and setting cookies in responses. By using cookie-parser, you can easily manage cookies, enhancing the functionality and security of your web applications.
 
-  #### Initialization: cookieParser(secret, options)
-  #### Reading Cookies: req.cookies, req.signedCookies
-  #### Setting Cookies: res.cookie(name, value, options)
-  #### Clearing Cookies: res.clearCookie(name, options)
+       **Initialization**: cookieParser(secret, options)
+       **Reading Cookies**: req.cookies, req.signedCookies
+       **Setting Cookies**: res.cookie(name, value, options)
+       **Clearing Cookies**: res.clearCookie(name, options)
 
   3) **cors** :- lets your website ask for data from other websites safely.You want your frontend website to get data from your backend server. To make this work safely, you need to set up CORS on your backend server.
   
@@ -67,19 +67,19 @@ Encapsulate logic that is not directly related to business logic or data manipul
 
   4) **dotenv** :- dotenv is a module that loads environment variables from a .env file into process.env, which helps manage configuration variables in a simple and secure way.
     
-   #### Security: -
+         **Security**: -
                   Keeps sensitive data like API keys and database credentials out of your source code.
-   #### Convenience:-
+         **Convenience**:-
                 Simplifies configuration management across different environments (development, testing, production).
 
   5) **express** :- Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications. It simplifies the process of building server-side applications, handling routes, managing middleware, and interacting with databases.
 
-   #### Key Features of Express
-   1) Routing:- Defines URL endpoints (routes) to handle HTTP requests.
-   2) Middleware:- Functions that execute during the request-response cycle.
-   3) Template Engines:- Supports various template engines like Pug, EJS, and Handlebars.
-   4) Static Files:- Serves static files like HTML, CSS, and JavaScript.
-   5) Error Handling:- Provides a mechanism for handling errors.
+       #### Key Features of Express
+           1) Routing:- Defines URL endpoints (routes) to handle HTTP requests.
+           2) Middleware:- Functions that execute during the request-response cycle.
+           3) Template Engines:- Supports various template engines like Pug, EJS, and Handlebars.
+           4) Static Files:- Serves static files like HTML, CSS, and JavaScript.
+           5) Error Handling:- Provides a mechanism for handling errors.
 
   
   6) **jsonwebtoken** :- JSON Web Token (JWT) is a compact, URL-safe means of securely transmitting information between parties as a JSON object. It consists of three parts: a header, a payload, and a signature. JWTs are often used for authentication and information exchange in web applications, allowing servers to verify the authenticity of requests and securely transmit data without needing to store session state on the server. They are signed using a secret key or a public/private key pair, ensuring that the information is trusted and not tampered with.
