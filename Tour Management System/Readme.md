@@ -32,15 +32,17 @@ Encapsulate logic that is not directly related to business logic or data manipul
 
   1) bcryptjs :- JavaScript library used for hashing passwords and comparing hashed passwords.To enhance security, particularly in user authentication systems.bcryptjs is a crucial library for securing passwords.It ensure that passwords are stored securely and can be verified efficiently, enhancing the security of your application’s authentication system.  
 
-   ##### Generating Salts:  genSaltSync, genSalt
-Generating salts involves creating a random sequence of bytes to add complexity and uniqueness to hashed passwords. This cryptographic technique mitigates vulnerabilities like password reuse and enhances security against brute-force attacks by ensuring each hashed password is unique, even if users have identical passwords.
+     ##### Generating Salts:  genSaltSync, genSalt
+      Generating salts involves creating a random sequence of bytes to add complexity and uniqueness to hashed passwords. This cryptographic technique mitigates vulnerabilities like password reuse and enhances security against brute-force attacks by ensuring each hashed password is unique, even if users have identical passwords.
                          
-   ##### Hashing Passwords: 
-                        hashSync, hash
-   ##### Comparing Passwords:
-   compareSync, compare
-   ##### Getting Rounds: 
-   getRounds
+     ##### Hashing Passwords:    hashSync, hash
+     Hashing passwords involves converting a plaintext password into a fixed-length hash value using a cryptographic hash function. This irreversible process ensures password security by generating a unique hash for each input, making it challenging to reverse-engineer passwords from stored hashes and enhancing overall data protection in applications.
+                     
+     ##### Comparing Passwords:  compareSync, compare
+     Comparing passwords involves hashing the user-provided password with the same method and salt as the stored hash, then comparing the resulting hashes. This approach securely verifies passwords without storing or transmitting plaintext, enhancing security against unauthorized access.
+  
+     ##### Getting Rounds:    getRounds
+   In the context of password hashing, "getting rounds" typically refers to the number of iterations or rounds of hashing applied to a password during the hashing process, especially with algorithms like bcrypt or Argon2. Increasing the number of rounds enhances security by making it more time-consuming and resource-intensive for attackers to brute-force passwords.
 
 
   2) cookie-parser :- cookie-parser is a convenient middleware for handling cookies in Express applications. It simplifies the process of parsing cookies from incoming requests and setting cookies in responses. By using cookie-parser, you can easily manage cookies, enhancing the functionality and security of your web applications.
@@ -110,7 +112,7 @@ Generating salts involves creating a random sequence of bytes to add complexity 
 
  ## React use libraries
 
-  1) axios: A popular HTTP client for making asynchronous HTTP requests from browsers or Node.js. It supports promises and can intercept requests and responses.
+  1) **axios**: A popular HTTP client for making asynchronous HTTP requests from browsers or Node.js. It supports promises and can intercept requests and responses.
 
   2) bootstrap: A front-end framework for developing responsive and mobile-first websites using HTML, CSS, and JavaScript components.
 
