@@ -32,8 +32,9 @@ Encapsulate logic that is not directly related to business logic or data manipul
 
   1) bcryptjs :- JavaScript library used for hashing passwords and comparing hashed passwords.To enhance security, particularly in user authentication systems.bcryptjs is a crucial library for securing passwords.It ensure that passwords are stored securely and can be verified efficiently, enhancing the security of your application’s authentication system.  
 
-   ##### Generating Salts:
-                          genSaltSync, genSalt
+   ##### Generating Salts:  genSaltSync, genSalt
+Generating salts involves creating a random sequence of bytes to add complexity and uniqueness to hashed passwords. This cryptographic technique mitigates vulnerabilities like password reuse and enhances security against brute-force attacks by ensuring each hashed password is unique, even if users have identical passwords.
+                         
    ##### Hashing Passwords: 
                         hashSync, hash
    ##### Comparing Passwords:
